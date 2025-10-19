@@ -34,7 +34,7 @@ B4:  y = x - 1
       - Set Union
    - The dataflow equation
       - `OUT[B] = gen[B] U (IN[B] - kill[B])`
-      - `IN[B] = U_{S \in succ[B]} OUT[S]`
+      - `IN[B] = U_{P \in pred[P]} OUT[P]`
    - The initialization of nodes
       - `OUT[B] = {}`
 
